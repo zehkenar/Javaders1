@@ -1,0 +1,17 @@
+package datatypes;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		double sayi=12.8;
+		sayi=526;
+		System.out.println(sayi);
+		
+		char karakter = 'a';
+		
+		boolean dogruMu = false;
+		
+	}
+
+}
