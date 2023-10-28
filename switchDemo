@@ -1,0 +1,33 @@
+package switchDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+//		grade = not, switch dallandırmak için vardır.case'den sonraki tırnak işaretli kısım switch'in parantez içindeki değeri demek.
+		char grade = 'F';
+		
+		switch (grade) {
+		case 'A' :
+			System.out.println("Tebrikler, geçtiniz");
+			break;
+		case 'B' :
+			System.out.println("Çok Güzel,geçtiniz");
+			break;
+//			Case b ve case c aynı olsun istersen System.out.println("Çok Güzel,geçtiniz"); bunları silmen yeterli. case b değeri c'deki değeri alacaktır.
+			break;
+		case 'C' :
+			System.out.println("İyi,geçtiniz");
+			break;
+		case 'D' :
+			System.out.println("Fena değil,geçtiniz");
+			break;
+		case 'F' :
+			System.out.println("Kaldınız");
+			break;
+//			default tüm caselerin dışında farklı senaryolar için eklenir.
+			default:
+				System.out.println("Geçersiz not girdiniz");
+		}
+	}
+
+}
