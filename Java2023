@@ -1,0 +1,51 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+	   System.out.println("Hello World!");
+        
+	   String ortaMetin = "İlginizi çekebilir";
+	   String altMetin = "Vade süresi";
+	   //Java'da bütün kod satırları ; ile bitmek zorunda. Java Script'te zorunlu değil.
+	   //Değişken isimlendirmeleri Java'da camelCase yazılır. İlk kelimenin ilk harfi küçük, sonraki kelimelerin ilk harfi büyük.
+	
+	   System.out.println(ortaMetin);
+	
+	   //integer = tam sayı
+	   int vade =12;
+	   
+	   double dolarDun= 18.25;
+	   double dolarBugun=18.30;
+	   
+	   boolean dolarDustuMu = false;
+	   //boolean true yada false olabilir.
+	   
+	   String okYonu=  "";
+	   
+	   if (dolarBugun<dolarDun) {
+		//if'in içindeki değerin karşılığı ya True yada false olabilir. eğer true ise if'in içindeki kodu çalıştırır.false ise else çalışır.
+	    okYonu = "down.svg";
+	   System.out.println(okYonu);
+	   } else if (dolarBugun>dolarDun)  {  //else if'i sınırsız ekleyebilirsin.
+		   okYonu = "up.svg";
+		   System.out.println(okYonu);
+	   }
+	   else {
+		   okYonu = "equal.svg";
+		   System.out.println(okYonu);
+	}
+	   //array, [] liste için, {} listenin değerleri için, normalde değerleri böyle yazmayız DB'den gelir.değerler 0'dan başlar.
+	   
+	   String [] krediler = {"Hızlı Kredi", "Maaşını Alanlara", "Mutlu Emekli"};
+	
+	   //krediler.length=krediler listesindeki elemen sayısı   i++:i=i+1
+	   for (int i = 0; i < krediler.length; i++) {
+	      System.out.println(krediler[i]);
+		   
+	}
+	   
+	   
+	}
+
+}
