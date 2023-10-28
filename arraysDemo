@@ -1,0 +1,22 @@
+package arraysDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String [] ogrenciler = new String[3];
+		ogrenciler [0] = "Zehra";
+		ogrenciler[1]= "Enes";
+		ogrenciler[2]= "Tarık";
+//		0,1,2 toplam 3 tane stringin içi o yüzden 3.	
+		for (int i=0;i<ogrenciler.length;i++) {
+			System.out.println(ogrenciler[i]);
+		
+		}
+		
+		for (String isim:ogrenciler ) {
+			System.out.println(isim);
+		}
+	}
+
+}
